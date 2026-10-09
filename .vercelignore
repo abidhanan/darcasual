@@ -1,0 +1,12 @@
+# Hanya file website yang di-upload ke Vercel
+data/images-src
+data/instagram-raw.json
+data/hires-ids.json
+scripts
+.claude
+README.md
+*.py
+data/gallery-src
+data/gallery.json
+data/brand-src
+data/hero-wide-src.jpg

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="id" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light only" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Dar Casual" />
+  <meta name="application-name" content="Dar Casual" />
+  <title>Dar Casual</title>
+  <meta name="description" content="Tracktop &amp; trackpant original dari brand sportswear klasik, dikurasi satu per satu dan siap menemani gaya harianmu." />
+
+  <!-- Pratinjau link (WhatsApp, Instagram, Facebook, X) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Dar Casual" />
+  <meta property="og:title" content="Dar Casual" />
+  <meta property="og:description" content="Tracktop &amp; trackpant original dari brand sportswear klasik, dikurasi satu per satu dan siap menemani gaya harianmu." />
+  <meta property="og:url" content="https://darcasual.vercel.app/" />
+  <meta property="og:image" content="https://darcasual.vercel.app/assets/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Logo Dar Casual" />
+  <meta property="og:locale" content="id_ID" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dar Casual" />
+  <meta name="twitter:description" content="Tracktop &amp; trackpant original dari brand sportswear klasik, dikurasi satu per satu dan siap menemani gaya harianmu." />
+  <meta name="twitter:image" content="https://darcasual.vercel.app/assets/og.jpg" />
+  <link rel="canonical" href="https://darcasual.vercel.app/" />
+
+  <!-- Favicon & ikon aplikasi -->
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/brand/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="theme-color" content="#111111" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" type="image/webp" media="(orientation: landscape) and (min-width: 768px)" imagesrcset="assets/hero/hero-wide-1600.webp 1600w, assets/hero/hero-wide-2560.webp 2560w" imagesizes="100vw" fetchpriority="high" />
+  <link rel="preload" as="image" type="image/webp" media="not all and (orientation: landscape) and (min-width: 768px)" imagesrcset="assets/hero/hero-tall-720.webp 720w, assets/hero/hero-tall-1080.webp 1080w" imagesizes="100vw" fetchpriority="high" />
+  <link rel="stylesheet" href="styles.css?v=20261010b" />
+</head>
+<body>
+  <a class="skip" href="#katalog">Langsung ke katalog</a>
+
+  <!-- 1. HEADER — warnanya kontras dengan section yang sedang berada di bawahnya (data-theme) -->
+  <header class="site-header" id="top" data-theme="hero">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links nav-left">
+        <li><a href="#top">Beranda</a></li>
+        <li><a href="#koleksi-baru">Koleksi Baru</a></li>
+        <li><a href="#katalog">Katalog</a></li>
+      </ul>
+      <a class="logo" href="#top" aria-label="Dar Casual, kembali ke atas">
+        <img src="assets/brand/logo-160.png" alt="Dar Casual" width="52" height="52" />
+        <span class="logo-text" aria-hidden="true">Dar Casual</span>
+      </a>
+      <ul class="nav-links nav-right">
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#cara-order">Cara Pemesanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+    <!-- Menu mobile: panel dari atas layar sampai tengah; warnanya mengikuti navbar (data-tone diset app.js) -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true" data-tone="light">
+      <div class="mm-head">
+        <a class="mm-brand" href="#top" aria-label="Dar Casual, ke Beranda">
+          <img src="assets/brand/logo-160.png" alt="" width="40" height="40" />
+          <span>Dar Casual</span>
+        </a>
+        <button class="mm-close" type="button" aria-label="Tutup menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg></button>
+      </div>
+      <nav class="mm-links" aria-label="Menu utama">
+        <a href="#top">Beranda</a>
+        <a href="#koleksi-baru">Koleksi Baru</a>
+        <a href="#katalog">Katalog</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#cara-order">Cara Pemesanan</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </div>
+    <div class="menu-backdrop" id="menu-backdrop" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <!-- Foto full cover: layar lebar = 3 foto model berjajar (tetap tajam), HP/tablet portrait = 1 foto -->
+    <section class="hero" data-theme="hero">
+      <picture class="hero-bg">
+        <source media="(orientation: landscape) and (min-width: 768px)" type="image/webp"
+                srcset="assets/hero/hero-wide-1600.webp 1600w, assets/hero/hero-wide-2560.webp 2560w" sizes="100vw" />
+        <source type="image/webp" srcset="assets/hero/hero-tall-720.webp 720w, assets/hero/hero-tall-1080.webp 1080w" sizes="100vw" />
+        <img src="assets/hero/hero-tall-720.webp" alt="Model mengenakan tracktop Adidas Europa koleksi Dar Casual" width="1080" height="1174" fetchpriority="high" />
+      </picture>
+      <div class="hero-content">
+        <h1 class="reveal"><span class="line">Santai Itu</span> <span class="line">Juga Bisa Elegan.</span></h1>
+        <p class="lead reveal">
+          <span class="line">Tracktop &amp; trackpant original dari brand sportswear klasik,</span>
+          <span class="line">dikurasi satu per satu dan siap menemani gaya harianmu.</span>
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-hero" href="#koleksi-baru">Lihat Koleksi</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strip kepercayaan berjalan kanan → kiri. app.js menggandakan isi sesuai lebar layar agar loop mulus. -->
+    <div class="marquee" role="region" aria-label="Keunggulan Dar Casual" data-theme="dark">
+      <div class="marquee-track">
+        <ul class="marquee-group">
+          <li>100% Original</li><li>World Wide Shipping</li><li>Free Stickers</li><li>Bisa DP 100k</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 3. KOLEKSI BARU: produk Ready terbaru (diisi app.js) -->
+    <section class="section new-arrivals" id="koleksi-baru" aria-labelledby="baru-title" data-theme="light">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="baru-title">Koleksi Baru</h2>
+          <p>Piece terbaru yang baru saja selesai kami kurasi. Semuanya Ready dan hanya ada satu, jadi siapa cepat dia dapat.</p>
+        </header>
+        <div class="new-grid" id="new-grid"></div>
+        <div class="catalog-foot">
+          <a class="btn btn-outline" href="#katalog">Lihat Semua Katalog</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. KATALOG -->
+    <section class="section catalog" id="katalog" aria-labelledby="katalog-title" data-theme="light">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="katalog-title">Katalog</h2>
+          <p>Seluruh koleksi kami langsung dari feed Instagram, termasuk arsip yang sudah terjual. Cari berdasarkan nama, merk, atau kategori, lalu sapa admin kami. Kami bantu cek ukuran sampai padu-padan.</p>
+        </header>
+
+        <!-- Filter, pencarian & dropdown menempel di bawah navbar selama berada di section Katalog -->
+        <div class="catalog-controls" id="catalog-controls">
+        <!-- Chip kategori dibuat otomatis oleh app.js dari data produk -->
+        <div class="filters" id="filters" role="group" aria-label="Filter produk">
+          <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">Semua</button>
+        </div>
+        <div class="toolbar">
+          <form class="search" role="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <label class="sr-only" for="search">Cari produk</label>
+            <input type="search" id="search" name="q" placeholder="Cari: firebird, europa, samba…" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" />
+          </form>
+          <label class="sr-only" for="brand-filter">Filter merk</label>
+          <select id="brand-filter" class="select">
+            <option value="">Semua merk</option>
+          </select>
+          <label class="sr-only" for="status-filter">Filter status</label>
+          <select id="status-filter" class="select">
+            <option value="all">Semua status</option>
+            <option value="ready">Ready</option>
+            <option value="booked">Booked</option>
+            <option value="sold">Sold out</option>
+          </select>
+        </div>
+        </div>
+
+        <div class="grid" id="product-grid">
+          <!-- skeleton, diganti oleh app.js -->
+          <div class="card-skeleton"></div><div class="card-skeleton"></div><div class="card-skeleton"></div>
+        </div>
+
+        <div class="catalog-foot">
+          <p class="filter-count" id="filter-count" aria-live="polite"></p>
+          <button class="btn btn-outline" id="load-more" type="button" hidden>Muat Lebih Banyak</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TENTANG KAMI -->
+    <section class="section about section-dark" id="tentang" aria-labelledby="tentang-title" data-theme="dark">
+      <div class="container">
+        <div class="about-split">
+          <figure class="about-media reveal">
+            <picture>
+              <source type="image/webp" srcset="assets/products/DeJ189gFFAn-480.webp 480w, assets/products/DeJ189gFFAn-720.webp 720w" sizes="(max-width: 767px) 60vw, 360px" />
+              <img src="assets/products/DeJ189gFFAn-720.webp" alt="Detail Trackpant Nike Button navy-putih dengan kancing samping" width="1080" height="1350" loading="lazy" decoding="async" />
+            </picture>
+          </figure>
+          <div class="about-text reveal">
+            <h2 id="tentang-title">Tentang Kami</h2>
+            <p>Dar Casual adalah kurator tracktop dan trackpant original dari Magelang. Kami berburu piece klasik dari Adidas, Nike, dan brand sportswear legendaris lainnya, lalu memilih hanya yang kondisinya terbaik.</p>
+            <p>Hasilnya pakaian yang nyaman dipakai seharian, gampang dipadukan, dan punya cerita. Tidak perlu berlebihan. Cukup kamu, dalam versi terbaikmu.</p>
+          </div>
+        </div>
+
+        <ol class="values">
+          <li class="reveal">
+            <span class="val-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.6-3 8.3-7 10-4-1.7-7-5.4-7-10V6l7-3Z"/><path d="M8.6 12.1l2.4 2.4 4.4-4.7"/></svg></span>
+            <h3>100% Original</h3>
+            <p>Setiap produk dijamin original. Bukan replika, bukan KW. Yang kamu lihat di feed adalah barang asli yang akan kamu terima.</p>
+          </li>
+          <li class="reveal">
+            <span class="val-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/><path d="M7.8 10.6l1.9 1.9 3.3-3.5"/></svg></span>
+            <h3>Kondisi Terkurasi</h3>
+            <p>Kami cek satu per satu, dari jahitan, resleting, sampai warna. Kondisi, ukuran, dan lingkar pinggang ditulis jujur di setiap produk.</p>
+          </li>
+          <li class="reveal">
+            <span class="val-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h10M7 21h10"/><path d="M8 3c0 4.2 4 5 4 9s-4 4.8-4 9M16 3c0 4.2-4 5-4 9s4 4.8 4 9"/></svg></span>
+            <h3>Gaya Timeless</h3>
+            <p>Siluet three-stripes, Firebird, dan Europa yang sudah jadi ikon sejak puluhan tahun lalu. Tetap relevan musim ini, tahun depan, dan seterusnya.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 6. CARA PEMESANAN (dari caption IG) -->
+    <section class="section how" id="cara-order" aria-labelledby="order-title" data-theme="light">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 id="order-title">Cara Pemesanan</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.2 12H6.2L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg></span><h3>Pilih</h3><p>Temukan produk favoritmu di katalog, lalu klik <em>Beli Sekarang</em>.</p></li>
+          <li class="reveal"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="4.5" width="14" height="16.5" rx="1"/><path d="M9 4.5V3h6v1.5"/><path d="M8.5 10h7M8.5 13.5h7M8.5 17h4"/></svg></span><h3>Isi Format</h3><p>Isi nama penerima, alamat lengkap, dan nomor HP.</p></li>
+          <li class="reveal"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="1.5"/><path d="M3 10h18M7 14.5h3"/></svg></span><h3>Bayar</h3><p>Transfer lewat BCA, Dana, atau ShopeePay, lalu kirim bukti pembayarannya.</p></li>
+          <li class="reveal"><span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h11v9.5H3z"/><path d="M14 10.5h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.7"/><circle cx="17.5" cy="17.5" r="1.7"/></svg></span><h3>Barang Dikirim</h3><p>Pesanan dikemas rapi bersama free stickers dan dikirim lewat J&amp;T ke alamatmu.</p></li>
+        </ol>
+        <p class="how-note reveal">
+          <span class="line">Belum siap bayar penuh? Bisa DP 100k untuk booking 7–10 hari.</span>
+          <span class="line">Teliti sebelum membeli, karena produk tidak dapat ditukar atau dikembalikan (no refund, no return).</span>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. FOOTER -->
+  <footer class="site-footer" id="kontak" data-theme="dark">
+    <div class="container">
+      <div class="footer-hero reveal">
+        <p class="footer-quote">Berpakaian dengan santai.<br />Tampil dengan yakin.</p>
+        <div class="footer-cta">
+          <a class="btn btn-outline-light btn-icon js-wa" data-wa-text="Halo Dar Casual, saya mau tanya soal koleksinya" href="https://wa.me/6285741841695" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg><span>Chat Customer Service</span></a>
+        </div>
+      </div>
+
+      <div class="footer-cols">
+        <div class="footer-brand">
+          <div class="brand-row">
+            <img class="footer-logo" src="assets/brand/logo-160.png" alt="" width="56" height="56" loading="lazy" />
+            <div class="brand-text">
+              <p class="brand-name">Dar Casual</p>
+              <p class="muted">Casual dengan sentuhan elegan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <a class="contact-link js-wa" href="https://wa.me/6285741841695" target="_blank" rel="noopener" data-wa-text="Halo Dar Casual, saya mau tanya soal koleksinya" aria-label="WhatsApp Dar Casual">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+            <span class="js-wa-display">+62 857-4184-1695</span>
+          </a>
+          <a class="contact-link" href="https://www.instagram.com/darcasual.co/" target="_blank" rel="noopener" aria-label="Instagram Dar Casual">
+            <svg class="stroke" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6"/></svg>
+            <span>@darcasual.co</span>
+          </a>
+          <p class="contact-link contact-static">
+            <svg class="stroke" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.9-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.1 12 21 12 21Z"/><circle cx="12" cy="9.8" r="2.4"/></svg>
+            <span>Magelang, Indonesia</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Dar Casual. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tombol WA melayang — warnanya mengikuti section di belakangnya -->
+  <a class="wa-float js-wa" href="https://wa.me/6285741841695" target="_blank" rel="noopener" aria-label="Chat WhatsApp Dar Casual" data-wa-text="Halo Dar Casual, saya mau tanya soal koleksinya">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+  </a>
+
+  <!-- Modal detail produk (galeri bisa digeser seperti carousel Instagram) -->
+  <dialog class="product-modal" id="product-modal" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" aria-label="Tutup"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <div class="modal-body"></div>
+  </dialog>
+  <div class="modal-backdrop-fallback" hidden></div>
+
+  <script src="data/products.js?v=20261010b"></script>
+  <script src="app.js?v=20261010b"></script>
+</body>
+</html>

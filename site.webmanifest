@@ -1,0 +1,13 @@
+{
+  "name": "Dar Casual",
+  "short_name": "Dar Casual",
+  "description": "Tracktop & trackpant original dari brand sportswear klasik, dikurasi satu per satu dan siap menemani gaya harianmu.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F6F2",
+  "theme_color": "#111111",
+  "icons": [
+    { "src": "/assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
